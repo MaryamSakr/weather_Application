@@ -221,15 +221,15 @@ function displayWeatherData(temperature, humidity, city) {
     weatherInfo.classList.remove("hidden");
     console.log(temperature);
     if (temperature >= 35) {
-        document.body.style.backgroundImage = "url('data/hot.jpg')";
+        document.body.style.backgroundImage = "url('hot.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundSize = "cover";
     } else if (temperature >= 28) {
-        document.body.style.backgroundImage = "url('data/spring.jpg')";
+        document.body.style.backgroundImage = "url('spring.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundSize = "cover";
     } else {
-        document.body.style.backgroundImage = " url('data/winter.jpg')";
+        document.body.style.backgroundImage = " url('winter.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundSize = "cover";
     }
@@ -288,7 +288,7 @@ allData.classList.remove("hidden");
                 allData.textContent = message;
                 allData.classList.remove("hidden");
             } else if (options >= 28) {
-                message = " درجات الحاره معتدله نتمني قضاء يوم سعيد و مع تمنياتنا بالتفوق";
+                message = " درجات الحراره معتدله نتمني قضاء يوم سعيد و مع تمنياتنا بالتفوق";
                 allData.textContent = message;
                 allData.classList.remove("hidden");
             } else {
