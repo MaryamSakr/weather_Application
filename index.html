@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/9f30b22ef4.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <h1>احوال الطقس</h1>
+            <div class="logo">
+                <img src="data/photo_2023-09-02_21-30-26.jpg">
+                <p>بالعلم نحمي كوكبنا</p>
+            </div>
+        </div>
+
+
+        <div class="weather-info">
+            <div id="location"></div>
+            <div id="temperature"></div>
+            <div id="description"></div>
+            <div id="humidity"></div>
+        </div>
+    </div>
+    <div class="data" id="data">
+        <form id="weather-form">
+
+            <label for="city">اختر المدينة</label>
+            <select id="city">
+                <option>--اختر المدينه--</option>
+                <option>القاهره</option>
+                <option>الجيزه</option>
+                <option>الاسكندريه</option>
+                <option>الاقصر</option>
+                <option>اسوان</option>
+                <option>اسيوط</option>
+                <option>البحيره</option>
+                <option>الاسماعيليه</option>
+                <option>دمياط</option>
+
+                <option>مرسي مطروح</option>
+                <option>المنيا</option>
+                <option>طنطا</option>
+                <option>قنا</option>
+                <option>سوهاج</option>
+                <option>السويس</option>
+                <option>الفيوم</option>
+                <option>المنصوره</option>
+                <option>العريش</option>
+                <option>بنها</option>
+
+                <option>الغردقه</option>
+                <option>الزقازيق</option>
+
+            </select>
+            <select id="job">
+                <option>--اختر الوظيفه--</option>
+                <option>طالب</option>
+                <option>مزارع</option>
+                <option>مربي الحيوانات</option>
+                <option>سائق</option>
+            </select>
+            <button class="sub" id="sub">عرض الطقس</button>
+        </form>
+        <div class="info hidden" id="info"></div>
+        <div class="footer" id="footer">
+            <div class="faceDiv">
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com/profile.php?id=100067327504270&mibextid=D4KYlr" class="face">
+                    &nbsp;Islam Mohamed</a>
+            </div>
+            <div class="instaDiv">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://instagram.com/eslammohamed4877?igshid=MzRlODBiNWFlZA==" class="insta">&nbsp;Islam
+                    Mohamed</a>
+            </div>
+            <div class="gmailDiv">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="monxhvhhx3157@gmail.com" class="gmail">&nbsp;Islam Mohamed</a>
+            </div>
+            <div class="hr"></div>
+            <div class="made">
+                <div class="madeTitle">Made By</div>
+                <div class="gmailDiv">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mosayed896@gmail.com" class="gmailMade">&nbsp;Mohamed Sayed</a>
+                </div>
+                <div class="gmailDiv">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="maryamsakr625@gmail.com" class="gmailMade">&nbsp;Maryam Abd-ElHamed</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

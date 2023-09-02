@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.container,
+.data {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 65%;
+}
+
+.logo p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#location {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#description,
+#humidity {
+    font-size: 18px;
+    color: #777777;
+}
+
+#humidity {
+    margin-top: 10px;
+}
+
+.data {
+    width: 800px;
+    margin-top: 30px;
+    height: 200px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+select,
+label,
+.sub {
+    margin-bottom: 15px;
+    width: 220px;
+    font-size: 20px;
+}
+
+input,
+select,
+.sub {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    box-shadow: 0 0 5pt 0.5pt #cecece;
+}
+
+.sub {
+    cursor: pointer;
+}
+
+
+.info {
+    padding: 20px;
+    margin: 50px 0px 0px -20px;
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer {
+    width: 800px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: flex-start;
+    margin: 15px 0px 0px -20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.face,
+.insta,
+.gmail {
+    text-decoration: none;
+    color: black;
+}
+
+.faceDiv,
+.instaDiv,
+.gmailDiv {
+    margin-bottom: 10px;
+}
+
+.hr {
+    width: 250px;
+    border: 1px solid #777777;
+    position: absolute;
+    left: 42%;
+    top: 112%;
+    margin-top: 10px;
+}
+
+.made {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #777777b3;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.gmailMade {
+    font-size: 15px;
+    color: #777777ba;
+    text-decoration: none;
+}
+
+.madeTitle {
+    margin: 5px 0px;
+}
