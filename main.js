@@ -303,7 +303,7 @@ allData.classList.remove("hidden");
                 allData.textContent = message;
                 allData.classList.remove("hidden");
             } else if (options >= 28) {
-                message = "انه يوم مناسب لرعي الماشيه نمتي قضاء يوم سعيد ";
+                message = "انه يوم مناسب لرعي الماشيه نتمني قضاء يوم سعيد ";
                 allData.textContent = message;
                 allData.classList.remove("hidden");
             } else {
